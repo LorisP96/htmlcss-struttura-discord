@@ -1,0 +1,94 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    flex-direction: column;
+    /* test */
+    height: 550px;
+    background-color: lightblue;
+}
+
+.main-head {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* test */
+    height: 50px;
+}
+
+/* MAIN HEAD */
+.flex-head {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    /* test */
+    height: 30px;
+    background-color: goldenrod;
+}
+
+/* LOGO */
+.logo {
+    width: 20%;
+    /* test */
+    border: 1px dotted black;
+}
+
+/* NAV */
+nav {
+    width: 60%;
+    /* test */
+    border: 1px dotted black;
+}
+
+nav ul {
+    list-style-type: none;
+    border: 1px dotted black;
+    display: flex;
+    justify-content:space-around;
+}
+
+li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* LOGIN */
+.login {
+    text-align: right;
+    width: 20%;
+    /* test */
+    border: 1px dotted black;
+}
+
+/* JUMBOTRON */
+.jumbotron-container {
+    display: flex;
+    /* test */
+    height: 500px;
+    background-color: blue;
+}
+
+.jumbotron-container div {
+    width: 60%;
+    margin: auto;
+    /* test */
+    height: 400px;
+    background-color: #ee82ee;
+}
+
+/* MAIN */
+.main-container {
+    /* test */
+    height: 500px;
+}
+
+main :nth-child(2n+0) {
+    background-color: lightgray;
+}
