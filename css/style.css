@@ -10,48 +10,56 @@ header {
     display: flex;
     flex-direction: column;
     /* test */
-    height: 550px;
+    height: 500px;
     background-color: lightblue;
 }
 
+/* MAIN HEAD */
 .main-head {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     /* test */
-    height: 50px;
+    height: 100px;
 }
 
-/* MAIN HEAD */
 .flex-head {
-    width: 70%;
     display: flex;
-    align-items: center;
+    width: 70%;
     /* test */
-    height: 30px;
     background-color: goldenrod;
 }
 
 /* LOGO */
 .logo {
+    display: flex;
+    align-items: center;
     width: 20%;
     /* test */
-    border: 1px dotted black;
+    height: 50px;
+    border: 5px dotted black;
+
 }
 
 /* NAV */
 nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60%;
     /* test */
-    border: 1px dotted black;
+    height: 50px;
+    border: 5px dotted black;
 }
 
+
+
 nav ul {
+    width: 40%;
     list-style-type: none;
-    border: 1px dotted black;
     display: flex;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
 li a {
@@ -61,10 +69,13 @@ li a {
 
 /* LOGIN */
 .login {
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     width: 20%;
     /* test */
-    border: 1px dotted black;
+    height: 50px;
+    border: 5px dotted black;
 }
 
 /* JUMBOTRON */
@@ -81,6 +92,7 @@ li a {
     /* test */
     height: 400px;
     background-color: #ee82ee;
+    border: 5px dotted black;
 }
 
 /* MAIN */
@@ -97,8 +109,9 @@ li a {
     margin-top: 50px;
     margin-bottom: 50px;
     /* test */
-    height: 400px;
+    height: 450px;
     background-color: lightblue;
+    border: 5px dotted black;
 }
 
 .container-pink {
@@ -106,8 +119,9 @@ li a {
     margin-top: 50px;
     margin-bottom: 50px;
     /* test */
-    height: 400px;
+    height: 450px;
     background-color: pink;
+    border: 5px dotted black;
 }
 
 .container-green {
@@ -117,6 +131,7 @@ li a {
     /* test */
     height: 750px;
     background-color: green;
+    border: 5px dotted black;
 }
 
 .grey {
@@ -125,3 +140,65 @@ li a {
 /* main :nth-(2n+0) {
     background-color: lightgray;
 } */
+
+/* FOOTER */
+footer section {
+    /* test */
+    background-color: rgb(35 39 42);
+}
+
+.flex-foot {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.foot-info {
+    width: 25%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /* test */
+    background-color: lightcoral;
+    height: 450px;
+    border: 5px dotted black;
+}
+
+.foot-support {
+    width: calc( 45% / 4 );
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /* test */
+    background-color: lightseagreen;
+    border: 5px dotted white;
+}
+
+/* FOOT-END */
+.foot-end {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* test */
+    height: 100px;
+}
+
+.flex-end {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* test */
+    height: 70px;
+    background-color: lightgreen;
+}
+
+.red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 30px;
+    /* test */
+    background-color: lightcoral;
+    border: 5px dotted black;
+}
