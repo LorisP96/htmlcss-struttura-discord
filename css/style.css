@@ -6,29 +6,22 @@
 }
 
 /* HEADER */
-header {
-    display: flex;
-    flex-direction: column;
-    /* test */
-    height: min-content;
-    background-color: lightblue;
-}
-
 /* MAIN HEAD */
 .main-head {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     /* test */
-    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: lightblue;
 }
 
 .flex-head {
-    display: flex;
     width: 70%;
+    margin: auto;
+    display: flex;
     /* test */
     background-color: goldenrod;
+    height: 50px;
 }
 
 /* LOGO */
@@ -37,7 +30,6 @@ header {
     align-items: center;
     width: 20%;
     /* test */
-    height: 50px;
     border: 5px dotted black;
 
 }
@@ -49,11 +41,8 @@ nav {
     align-items: center;
     width: 60%;
     /* test */
-    height: 50px;
     border: 5px dotted black;
 }
-
-
 
 nav ul {
     width: 40%;
@@ -74,7 +63,6 @@ li a {
     align-items: center;
     width: 20%;
     /* test */
-    height: 50px;
     border: 5px dotted black;
 }
 
