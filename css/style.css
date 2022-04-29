@@ -10,7 +10,7 @@ header {
     display: flex;
     flex-direction: column;
     /* test */
-    height: 500px;
+    height: min-content;
     background-color: lightblue;
 }
 
